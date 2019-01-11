@@ -1,0 +1,4 @@
+django
+channels_redis
+channels
+django-heroku

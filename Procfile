@@ -1,0 +1,1 @@
+web: daphne herokutesting.asgi:application
