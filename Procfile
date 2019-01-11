@@ -1,2 +1,1 @@
-web: daphne herokutesting.asgi:application
-worker: python manage.py runworker -v2
+web: daphne herokutesting.asgi:application --port $PORT --bind 0.0.0.0
